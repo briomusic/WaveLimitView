@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7F969C18015D40009D15D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F969B18015D40009D15D8 /* Foundation.framework */; };
+		2A7F969E18015D40009D15D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F969D18015D40009D15D8 /* CoreGraphics.framework */; };
+		2A7F96A018015D40009D15D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F969F18015D40009D15D8 /* UIKit.framework */; };
+		2A7F96A618015D40009D15D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F96A418015D40009D15D8 /* InfoPlist.strings */; };
+		2A7F96A818015D40009D15D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F96A718015D40009D15D8 /* main.m */; };
+		2A7F96AC18015D40009D15D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F96AB18015D40009D15D8 /* AppDelegate.m */; };
+		2A7F96AF18015D40009D15D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F96AD18015D40009D15D8 /* Main.storyboard */; };
+		2A7F96B218015D40009D15D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F96B118015D40009D15D8 /* ViewController.m */; };
+		2A7F96B418015D40009D15D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F96B318015D40009D15D8 /* Images.xcassets */; };
+		2A7F96BB18015D40009D15D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F96BA18015D40009D15D8 /* XCTest.framework */; };
+		2A7F96BC18015D40009D15D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F969B18015D40009D15D8 /* Foundation.framework */; };
+		2A7F96BD18015D40009D15D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7F969F18015D40009D15D8 /* UIKit.framework */; };
+		2A7F96C518015D40009D15D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F96C318015D40009D15D8 /* InfoPlist.strings */; };
+		2A7F96C718015D40009D15D8 /* WaveViewLimitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F96C618015D40009D15D8 /* WaveViewLimitDemoTests.m */; };
+		2A7F96D218015D64009D15D8 /* WaveLimitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F96D118015D64009D15D8 /* WaveLimitView.m */; };
+		2A7F96D418015E36009D15D8 /* clav.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F96D318015E36009D15D8 /* clav.png */; };
+		2A7F96D618015E4E009D15D8 /* leftlimit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F96D518015E4D009D15D8 /* leftlimit.png */; };
+		2A7F96D818015E56009D15D8 /* rightlimit.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F96D718015E56009D15D8 /* rightlimit.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A7F96BE18015D40009D15D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A7F969018015D3F009D15D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7F969718015D40009D15D8;
+			remoteInfo = WaveViewLimitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A7F969818015D40009D15D8 /* WaveViewLimitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveViewLimitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7F969B18015D40009D15D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A7F969D18015D40009D15D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A7F969F18015D40009D15D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A7F96A318015D40009D15D8 /* WaveViewLimitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaveViewLimitDemo-Info.plist"; sourceTree = "<group>"; };
+		2A7F96A518015D40009D15D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A7F96A718015D40009D15D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A7F96A918015D40009D15D8 /* WaveViewLimitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaveViewLimitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2A7F96AA18015D40009D15D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A7F96AB18015D40009D15D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A7F96AE18015D40009D15D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A7F96B018015D40009D15D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A7F96B118015D40009D15D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A7F96B318015D40009D15D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A7F96B918015D40009D15D8 /* WaveViewLimitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveViewLimitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7F96BA18015D40009D15D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2A7F96C218015D40009D15D8 /* WaveViewLimitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaveViewLimitDemoTests-Info.plist"; sourceTree = "<group>"; };
+		2A7F96C418015D40009D15D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A7F96C618015D40009D15D8 /* WaveViewLimitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveViewLimitDemoTests.m; sourceTree = "<group>"; };
+		2A7F96D018015D64009D15D8 /* WaveLimitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveLimitView.h; sourceTree = "<group>"; };
+		2A7F96D118015D64009D15D8 /* WaveLimitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveLimitView.m; sourceTree = "<group>"; };
+		2A7F96D318015E36009D15D8 /* clav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clav.png; sourceTree = "<group>"; };
+		2A7F96D518015E4D009D15D8 /* leftlimit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftlimit.png; sourceTree = "<group>"; };
+		2A7F96D718015E56009D15D8 /* rightlimit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightlimit.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A7F969518015D40009D15D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F969E18015D40009D15D8 /* CoreGraphics.framework in Frameworks */,
+				2A7F96A018015D40009D15D8 /* UIKit.framework in Frameworks */,
+				2A7F969C18015D40009D15D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7F96B618015D40009D15D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F96BB18015D40009D15D8 /* XCTest.framework in Frameworks */,
+				2A7F96BD18015D40009D15D8 /* UIKit.framework in Frameworks */,
+				2A7F96BC18015D40009D15D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7F968F18015D3F009D15D8 = {
+			isa = PBXGroup;
+			children = (
+				2A7F96A118015D40009D15D8 /* WaveViewLimitDemo */,
+				2A7F96C018015D40009D15D8 /* WaveViewLimitDemoTests */,
+				2A7F969A18015D40009D15D8 /* Frameworks */,
+				2A7F969918015D40009D15D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A7F969918015D40009D15D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F969818015D40009D15D8 /* WaveViewLimitDemo.app */,
+				2A7F96B918015D40009D15D8 /* WaveViewLimitDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A7F969A18015D40009D15D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F969B18015D40009D15D8 /* Foundation.framework */,
+				2A7F969D18015D40009D15D8 /* CoreGraphics.framework */,
+				2A7F969F18015D40009D15D8 /* UIKit.framework */,
+				2A7F96BA18015D40009D15D8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A7F96A118015D40009D15D8 /* WaveViewLimitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F96AA18015D40009D15D8 /* AppDelegate.h */,
+				2A7F96AB18015D40009D15D8 /* AppDelegate.m */,
+				2A7F96AD18015D40009D15D8 /* Main.storyboard */,
+				2A7F96B018015D40009D15D8 /* ViewController.h */,
+				2A7F96B118015D40009D15D8 /* ViewController.m */,
+				2A7F96D018015D64009D15D8 /* WaveLimitView.h */,
+				2A7F96D118015D64009D15D8 /* WaveLimitView.m */,
+				2A7F96D318015E36009D15D8 /* clav.png */,
+				2A7F96D518015E4D009D15D8 /* leftlimit.png */,
+				2A7F96D718015E56009D15D8 /* rightlimit.png */,
+				2A7F96B318015D40009D15D8 /* Images.xcassets */,
+				2A7F96A218015D40009D15D8 /* Supporting Files */,
+			);
+			path = WaveViewLimitDemo;
+			sourceTree = "<group>";
+		};
+		2A7F96A218015D40009D15D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F96A318015D40009D15D8 /* WaveViewLimitDemo-Info.plist */,
+				2A7F96A418015D40009D15D8 /* InfoPlist.strings */,
+				2A7F96A718015D40009D15D8 /* main.m */,
+				2A7F96A918015D40009D15D8 /* WaveViewLimitDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A7F96C018015D40009D15D8 /* WaveViewLimitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F96C618015D40009D15D8 /* WaveViewLimitDemoTests.m */,
+				2A7F96C118015D40009D15D8 /* Supporting Files */,
+			);
+			path = WaveViewLimitDemoTests;
+			sourceTree = "<group>";
+		};
+		2A7F96C118015D40009D15D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F96C218015D40009D15D8 /* WaveViewLimitDemoTests-Info.plist */,
+				2A7F96C318015D40009D15D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A7F969718015D40009D15D8 /* WaveViewLimitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7F96CA18015D40009D15D8 /* Build configuration list for PBXNativeTarget "WaveViewLimitDemo" */;
+			buildPhases = (
+				2A7F969418015D40009D15D8 /* Sources */,
+				2A7F969518015D40009D15D8 /* Frameworks */,
+				2A7F969618015D40009D15D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveViewLimitDemo;
+			productName = WaveViewLimitDemo;
+			productReference = 2A7F969818015D40009D15D8 /* WaveViewLimitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A7F96B818015D40009D15D8 /* WaveViewLimitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7F96CD18015D40009D15D8 /* Build configuration list for PBXNativeTarget "WaveViewLimitDemoTests" */;
+			buildPhases = (
+				2A7F96B518015D40009D15D8 /* Sources */,
+				2A7F96B618015D40009D15D8 /* Frameworks */,
+				2A7F96B718015D40009D15D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A7F96BF18015D40009D15D8 /* PBXTargetDependency */,
+			);
+			name = WaveViewLimitDemoTests;
+			productName = WaveViewLimitDemoTests;
+			productReference = 2A7F96B918015D40009D15D8 /* WaveViewLimitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A7F969018015D3F009D15D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Brio;
+				TargetAttributes = {
+					2A7F96B818015D40009D15D8 = {
+						TestTargetID = 2A7F969718015D40009D15D8;
+					};
+				};
+			};
+			buildConfigurationList = 2A7F969318015D3F009D15D8 /* Build configuration list for PBXProject "WaveViewLimitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A7F968F18015D3F009D15D8;
+			productRefGroup = 2A7F969918015D40009D15D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A7F969718015D40009D15D8 /* WaveViewLimitDemo */,
+				2A7F96B818015D40009D15D8 /* WaveViewLimitDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A7F969618015D40009D15D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F96B418015D40009D15D8 /* Images.xcassets in Resources */,
+				2A7F96D418015E36009D15D8 /* clav.png in Resources */,
+				2A7F96A618015D40009D15D8 /* InfoPlist.strings in Resources */,
+				2A7F96D618015E4E009D15D8 /* leftlimit.png in Resources */,
+				2A7F96D818015E56009D15D8 /* rightlimit.png in Resources */,
+				2A7F96AF18015D40009D15D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7F96B718015D40009D15D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F96C518015D40009D15D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A7F969418015D40009D15D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F96B218015D40009D15D8 /* ViewController.m in Sources */,
+				2A7F96AC18015D40009D15D8 /* AppDelegate.m in Sources */,
+				2A7F96A818015D40009D15D8 /* main.m in Sources */,
+				2A7F96D218015D64009D15D8 /* WaveLimitView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7F96B518015D40009D15D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F96C718015D40009D15D8 /* WaveViewLimitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A7F96BF18015D40009D15D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A7F969718015D40009D15D8 /* WaveViewLimitDemo */;
+			targetProxy = 2A7F96BE18015D40009D15D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A7F96A418015D40009D15D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7F96A518015D40009D15D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A7F96AD18015D40009D15D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7F96AE18015D40009D15D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A7F96C318015D40009D15D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7F96C418015D40009D15D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A7F96C818015D40009D15D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A7F96C918015D40009D15D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A7F96CB18015D40009D15D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveViewLimitDemo/WaveViewLimitDemo-Prefix.pch";
+				INFOPLIST_FILE = "WaveViewLimitDemo/WaveViewLimitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A7F96CC18015D40009D15D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveViewLimitDemo/WaveViewLimitDemo-Prefix.pch";
+				INFOPLIST_FILE = "WaveViewLimitDemo/WaveViewLimitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2A7F96CE18015D40009D15D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaveViewLimitDemo.app/WaveViewLimitDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveViewLimitDemo/WaveViewLimitDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WaveViewLimitDemoTests/WaveViewLimitDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2A7F96CF18015D40009D15D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WaveViewLimitDemo.app/WaveViewLimitDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaveViewLimitDemo/WaveViewLimitDemo-Prefix.pch";
+				INFOPLIST_FILE = "WaveViewLimitDemoTests/WaveViewLimitDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A7F969318015D3F009D15D8 /* Build configuration list for PBXProject "WaveViewLimitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7F96C818015D40009D15D8 /* Debug */,
+				2A7F96C918015D40009D15D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7F96CA18015D40009D15D8 /* Build configuration list for PBXNativeTarget "WaveViewLimitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7F96CB18015D40009D15D8 /* Debug */,
+				2A7F96CC18015D40009D15D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A7F96CD18015D40009D15D8 /* Build configuration list for PBXNativeTarget "WaveViewLimitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7F96CE18015D40009D15D8 /* Debug */,
+				2A7F96CF18015D40009D15D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A7F969018015D3F009D15D8 /* Project object */;
+}
